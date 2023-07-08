@@ -1,0 +1,72 @@
+header {
+    text-transform: capitalize;
+    text-align: center;
+    background-image: linear-gradient(120deg, orange, white, green);
+    /* position: fixed;
+    width: 100%;
+    margin-top: 0px;*/
+    border-style: groove;
+    border-color: rgb(146, 72, 153);
+
+}
+
+body {
+    background-image: url("https://www.vhv.rs/dpng/d/536-5368613_happy-independence-day-2018-clipart-png-download-15.png");
+    background-size: cover;
+}
+
+.a {
+    margin-top: 5px;
+    width: 100%;
+    height: 220px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border-color: black;
+    border-style: double;
+
+}
+
+#c1 {
+    background-image: url("https://www.travel-rajasthan.com/images/experiance-in-rajsthan/forts-and-palaces/hawa-mahal-travel-rajasthan.jpg");
+}
+
+.b {
+    background-image: url("https://blog.savaari.com/wp-content/uploads/2022/11/Konark-Sun-Temple-Ancient.webp");
+    height: 200px;
+    width: 300px;
+    text-indent: 50px;
+    background-size: cover;
+    border-radius: 2px;
+    border-style: solid;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.b1 {
+    margin-left: 350px;
+    position: absolute;
+    top: 25px;
+}
+.c1{
+    margin-left: 350px;
+    position: absolute;
+    top: 270px;
+}
+#c {
+    background-color: bisque;
+    margin-top: 20px;
+    width: 100%;
+    height: 270px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: brown;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: right;
+    background-color: rgb(240, 219, 134);
+    color: rgb(62, 11, 149);
+}
