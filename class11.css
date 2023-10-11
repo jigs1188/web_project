@@ -1,156 +1,100 @@
+#i1{grid-area: i11;}
+#i2{grid-area: i22;}
+#i3{grid-area: i33;}
+#i4{grid-area: i44;}
+body {
+    background-image: url("https://www.vhv.rs/dpng/d/536-5368613_happy-independence-day-2018-clipart-png-download-15.png");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnuGh-hWdobBavXunSL5gHKU9dbv1EpXPhXA&usqp=CAU"); */
+    /* background-color: blueviolet; */
+    /* background-image: linear-gradient(230deg blue white black); */
+    background-size: cover;
+    animation: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
 header {
     font-size: 40px;
     text-shadow: 2px 2px 2px  rgb(179, 118, 118);
     text-transform: capitalize;
     text-decoration: solid;
     text-decoration-line: underline;
-        text-align: center;
-    background-image: linear-gradient(120deg, orange, white, green);
-    /* position: fixed;
-    width: 100%;
-    margin-top: 0px;*/
+    text-align: center;
+    background-image: linear-gradient(120deg, rgb(4, 0, 255), white, rgb(0, 0, 0));
     border-style: groove;
     border-color: rgb(146, 72, 153);
-
-}
-
-body {
-    background-image: url("https://www.vhv.rs/dpng/d/536-5368613_happy-independence-day-2018-clipart-png-download-15.png");
-    background-size: cover;
-}
-
-.a {
-    text-align: top=5px;
-    margin-top: 5px;
-    width: 100%;
-    height: 220px;
-    background-color: blanchedalmond;
-    border-radius: 5px;
-    border-color: black;
-    border-style: double;
-    text-indent: 50x;
-    /* text-align: center;
-    text-emphasis-position: 50px; */
-    content:"width=device-width, initial-scale=1.0" ;
-}
-
-#c1 {
-    background-image: url("https://www.travel-rajasthan.com/images/experiance-in-rajsthan/forts-and-palaces/hawa-mahal-travel-rajasthan.jpg");
-}
-
-.b {
-    /* background-image: url("https://blog.savaari.com/wp-content/uploads/2022/11/Konark-Sun-Temple-Ancient.webp"); */
-    height: 200px;
-    width: 300px;
-    text-indent: 50px;
-    /* background-size: cover; */
     border-radius: 2px;
-    border-style: solid;
-    margin-top: 7px;
-    margin-left: 10px;
 }
-.e{
-    height: 200px;
-    width: 300px;
-    text-indent: 50px;
-    /* background-size: cover; */
-    border-radius: 2px;
-    border-style: solid;
-    margin-top: 7px;
-    margin-left: 78.5%;
-}
-.b1 {
-    margin-left: 350px;
-    margin-right: 30px;
-    position: absolute;
-    top: 80px;
-}
-.c1{
-    margin-left: 350px;
-    position: absolute;
-    top: 330px;
-}
-#c2{
-    margin-right: 350px;
-    margin-left: 30px;
-    position: absolute;
-    top: 550px;
-}
-.f{
-    margin-right: 350px;
-    margin-left: 30px;
-    position: absolute;
-    top:790px;
-}
-#f1{
-    margin-left: 350px;
-    margin-right: 30px;
-    position: absolute;
-    top: 1030px;
-}
-#f2{
-    margin-left: 350px;
-    margin-right: 30px;
-    position: absolute;
-    top: 1250px;
-}
-#f3{
-    margin-right: 350px;
-    margin-left: 30px;
-    position: absolute;
-    top: 1480px;
-}
-#f4{
-    margin-right: 350px;
-    margin-left: 30px;
-    position: absolute;
-    top: 1700px;
-}
-#h{
-    color: rgb(225, 133, 27);
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    
-}
-#c {
-    background-color: bisque;
-    margin-top: 20px;
-    width: 100%;
-    height: 270px;
-    border-radius: 3px;
-    border-style: solid;
-    border-color: brown;
-}
-
 footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    text-align: right;
+    height: 20px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
     background-color: rgb(240, 219, 134);
     color: rgb(62, 11, 149);
 }
-.n{
-    /* position: fixed; */
+.a{
+    display: grid;
+    grid-area: auto;
+    grid-template-areas: 'i11 i22 i22 i22 i22 i22 i22' ;
+    background-color: rgb(75, 58, 227);
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/377/443/desktop-wallpaper-for-laptop-full-screen-15-full-screen.jpg"); */
+    background-size: cover;
+    background-position-y: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px black;
+    color: white;
+}
+.c{
+    display: grid;
+    grid-template-areas: 'i44 i44 i44 i44 i44 i33' ;
+    background-color:rgb(72, 58, 227);
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/377/443/desktop-wallpaper-for-laptop-full-screen-15-full-screen.jpg"); */
+    background-size: cover;
+    background-position-y: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px black;
+    color: white;
+
+}
+#i1,#i3{
+    padding: 10px;
+}
+
+#i2,#i4{
+    border-radius: 3px;
+    border-color: blueviolet;
+}
+.b{
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px 3px black;
+    /* background-size: cover; */
+    
+}
+
+#d{
     margin-top: 5px;
     border-radius: 5px;
     border-style: groove;
     border-color: rgb(17, 17, 17);
-    background-image: linear-gradient(120deg,orange,white,green);
+    background-image: linear-gradient(120deg,rgb(0, 0, 0),white,rgb(9, 0, 128));
     width: 100%;
-    height: 100px;
-   
-   
+    height: 60px;
+    text-align: center;
 }
-#n1{
-    margin-top: 10px;
-    margin-left:50%;
-}
-#n2{
-   
 
-    margin-top: 10px;
-    margin-right:10%;
-    margin-bottom: 10px;
+@keyframes anim{
+   10% { background-color: blue;}
+   20% {background-color: rgb(118, 173, 24);}
+     30% {background-color: black;}
 }
