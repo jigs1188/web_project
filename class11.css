@@ -93,6 +93,13 @@ footer {
     text-align: center;
 }
 
+#h{
+    color: white;
+}
+#h:hover{
+    color: red;
+}
+
 @keyframes anim{
    10% { background-color: blue;}
    20% {background-color: rgb(118, 173, 24);}
